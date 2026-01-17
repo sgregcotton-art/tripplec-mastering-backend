@@ -4,15 +4,18 @@ tripplec-mastering-backend/
 ├── main.py               ← FastAPI backend
 ├── requirements.txt      ← pinned Python packages
 ├── runtime.txt           ← python-3.11.9
+
 git add render.yaml
 git commit -m "Add render.yaml"
 git push
+
 ├── uploads/              ← user-uploaded audio files
 │   └── .keep             ← empty file to keep folder in GitHub
 ├── mastered/             ← processed mastered audio files
 │   └── .keep
 └── metadata/             ← metadata & ASCAP sheets
     └── .keep
+
 requirements.txt
 fastapi==0.111.0
 uvicorn==0.23.2
