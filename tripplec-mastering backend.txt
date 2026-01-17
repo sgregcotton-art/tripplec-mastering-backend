@@ -12,6 +12,7 @@ tripplec-mastering-backend/
 └── metadata/             ← metadata & ASCAP sheets
     └── .keep
 requirements.txt
+
 fastapi==0.111.0
 uvicorn==0.23.2
 numpy==1.25.2
