@@ -1,10 +1,9 @@
-ai-mastering-app/
-├── frontend/
-│   ├── pages/
-│   │   └── index.js
-│   └── styles.css
-│
-├── backend/
-│   ├── main.py
-│   ├── audio_engine.py
-│   └── requirements.txt
+main.py            ← your FastAPI backend file
+requirements.txt   ← fixed versions only
+runtime.txt        ← python-3.11.9
+uploads/           ← contains .keep
+  └── .keep
+mastered/          ← contains .keep
+  └── .keep
+metadata/          ← contains .keep
+  └── .keep
