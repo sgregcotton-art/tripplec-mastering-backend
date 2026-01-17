@@ -4,7 +4,7 @@ tripplec-mastering-backend/
 ├── main.py               ← FastAPI backend
 ├── requirements.txt      ← pinned Python packages
 ├── runtime.txt           ← python-3.11.9
-│
+│.ruby-version 
 ├── uploads/              ← user-uploaded audio files
 │   └── .keep             ← empty file to keep folder in GitHub
 ├── mastered/             ← processed mastered audio files
