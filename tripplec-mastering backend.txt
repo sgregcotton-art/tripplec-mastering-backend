@@ -1,0 +1,10 @@
+ai-mastering-app/
+├── frontend/
+│   ├── pages/
+│   │   └── index.js
+│   └── styles.css
+│
+├── backend/
+│   ├── main.py
+│   ├── audio_engine.py
+│   └── requirements.txt
