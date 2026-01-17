@@ -11,3 +11,13 @@ tripplec-mastering-backend/
 │   └── .keep
 └── metadata/             ← metadata & ASCAP sheets
     └── .keep
+requirements.txt
+fastapi==0.111.0
+uvicorn==0.23.2
+numpy==1.25.2
+soundfile==0.12.1
+pyloudnorm==0.2.0
+mutagen==1.46.0
+python-multipart==0.0.6
+runtime.txt
+python-3.11.9
