@@ -1,9 +1,13 @@
-main.py            ← your FastAPI backend file
-requirements.txt   ← fixed versions only
-runtime.txt        ← python-3.11.9
-uploads/           ← contains .keep
-  └── .keep
-mastered/          ← contains .keep
-  └── .keep
-metadata/          ← contains .keep
-  └── .keep
+
+tripplec-mastering-backend/
+│
+├── main.py               ← FastAPI backend
+├── requirements.txt      ← pinned Python packages
+├── runtime.txt           ← python-3.11.9
+│
+├── uploads/              ← user-uploaded audio files
+│   └── .keep             ← empty file to keep folder in GitHub
+├── mastered/             ← processed mastered audio files
+│   └── .keep
+└── metadata/             ← metadata & ASCAP sheets
+    └── .keep
